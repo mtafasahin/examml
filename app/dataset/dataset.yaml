@@ -1,0 +1,5 @@
+train: /workspaces/examml/app/dataset/images
+val: /workspaces/examml/app/dataset/images
+
+nc: 1
+names: ["soru"]

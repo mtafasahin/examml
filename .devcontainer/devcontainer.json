@@ -1,0 +1,20 @@
+{
+  "name": "Python YOLO ML Dev Container",
+  "dockerFile": "Dockerfile",
+  "workspaceFolder": "/workspaces/examml",
+  "mounts": [
+    "source=${localWorkspaceFolder}/app,target=/app,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
